@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -18,10 +19,48 @@
   <link rel="stylesheet" href="css/nivo-lightbox.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/responsive.css">
+  <style>
+    .single-team {
+      background: #fff;
+    }
+
+    .team-thumb {
+      margin: 50px;
+    }
+
+    .team-thumb img {
+      display: block;
+      width: 130px !important;
+      margin: 0 auto;
+    }
+
+    .team-inner {
+      padding: 0 10px;
+      min-height: 110px;
+    }
+
+    .team-title {
+      padding-bottom: 10px;
+    }
+
+    #showcase {
+      padding-top: 100px;
+    }
+
+    .blog-item-text {
+      text-align: center;
+    }
+
+    .blog-item-img {
+      width: 130px;
+      margin: 30px auto 40px;
+    }
+  </style>
 </head>
 
 <body>
 
+  <!-- header start -->
   <header id="home" class="hero-area">
     <div class="overlay">
       <span></span>
@@ -37,18 +76,18 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto w-100 justify-content-end">
             <li class="nav-item">
-              <a class="nav-link page-scroll" href="#home">Home</a>
+              <a class="nav-link page-scroll" href="#home">首页</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link page-scroll" href="#services"></a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="#features">服务说明</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link page-scroll" href="#services">About</a>
+              <a class="nav-link page-scroll" href="#showcase">成功案例</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link page-scroll" href="#features">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link page-scroll" href="#showcase">Showcase</a>
-            </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link page-scroll" href="#pricing">Pricing</a>
             </li>
             <li class="nav-item">
@@ -59,10 +98,9 @@
             </li>
             <li class="nav-item">
               <a class="nav-link page-scroll" href="#contact">Contact</a>
-            </li>
+            </li> -->
             <li class="nav-item">
-              <a class="btn btn-singin" href="https://uideck.com/products/slick-free-bootstrap-template/"
-                rel="nofollow">Download</a>
+              <a class="btn btn-singin" href="#" rel="nofollow">申请试用</a>
             </li>
           </ul>
         </div>
@@ -72,12 +110,12 @@
       <div class="row space-100">
         <div class="col-lg-6 col-md-12 col-xs-12">
           <div class="contents">
-            <h2 class="head-title">Handcrafted Web Template <br>For Business and Startups</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab <br>dolores ea fugiat nesciunt quisquam.</p>
+            <h2 class="head-title">子衿托辅机构线上服务平台</h2>
+            <p>基于人工智能、大数据、机器学习、云计算和图像识别<br>等前沿技术，致力于提升托辅机构的核心竞争力</p>
             <div class="header-button">
               <a href="https://uideck.com/products/slick-free-bootstrap-template/" rel="nofollow"
-                class="btn btn-border-filled">Get Started</a>
-              <a href="#contact" class="btn btn-border page-scroll">Contact Us</a>
+                class="btn btn-border-filled">申请试用</a>
+              <a href="#contact" class="btn btn-border page-scroll">了解更多</a>
             </div>
           </div>
         </div>
@@ -89,10 +127,17 @@
       </div>
     </div>
   </header>
+  <!-- header end -->
 
 
+  <!-- 通用模板 start -->
   <section id="services" class="section">
     <div class="container">
+      <div class="features-text section-header text-center">
+        <div>
+          <h2 class="section-title">经营托辅机构是否遇到了以下难题？</h2>
+        </div>
+      </div>
       <div class="row">
 
         <div class="col-lg-4 col-md-6 col-xs-12">
@@ -100,9 +145,8 @@
             <div class="icon">
               <i class="lni-cog"></i>
             </div>
-            <h4>Bootstrap 4</h4>
-            <p>Share processes and data secure lona need to know basis Our team assured your web site is always safe.
-            </p>
+            <h4>好的口碑难打造</h4>
+            <p>中小型机构无品牌优势，家长信任度差，加盟费用太高，自有品牌无以为继。一所学校，几十家托辅班，竞争激烈</p>
           </div>
         </div>
 
@@ -112,9 +156,8 @@
             <div class="icon">
               <i class="lni-brush"></i>
             </div>
-            <h4>Slick Design</h4>
-            <p>Share processes and data secure lona need to know basis Our team assured your web site is always safe.
-            </p>
+            <h4>教师考核没标准</h4>
+            <p>机构管理者可以看到教师的忙碌，但这些关乎机构服务质量的关键数据，例如作业评判是否用心，管理者却无从得知</p>
           </div>
         </div>
 
@@ -124,17 +167,17 @@
             <div class="icon">
               <i class="lni-heart"></i>
             </div>
-            <h4>Crafted with Love</h4>
-            <p>Share processes and data secure lona need to know basis Our team assured your web site is always safe.
-            </p>
+            <h4>成本高昂利润低</h4>
+            <p>价格打不赢小作坊，房租、水电、宣传、带班老师，处处需要钱，利润低，盈利模式单一，赚钱困难，生存困难</p>
           </div>
         </div>
 
       </div>
     </div>
   </section>
+  <!-- 通用模板 end -->
 
-
+  <!-- 愿景 start -->
   <section id="business-plan">
     <div class="container">
       <div class="row">
@@ -148,31 +191,113 @@
 
         <div class="col-lg-6 col-md-12 pl-4">
           <div class="business-item-info">
-            <h3>Crafted For Business, Startup and Agency Websites</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br> tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim <br> veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip ex ea <br> commodo consequat. Duis aute irure dolor in reprehenderit in voluptate <br> velit esse
-              cillum dolore eu fugiat nulla pariatur.</p>
-            <a class="btn btn-common" href="#">download</a>
+            <h3>提升托辅机构的核心竞争力</h3>
+            <p>您遇到的所有问题，接入【子衿托辅机构线上服务平台】全搞定！<br>让只能接送、管饭的小饭桌，变成坐拥金牌口碑的行业佼佼者！搭<br>上这趟款车，突破瓶颈，实现收入翻倍。</p>
+            <a class="btn btn-common" href="#">申请试用</a>
           </div>
         </div>
 
       </div>
     </div>
   </section>
+  <!-- 愿景 end -->
+
+  <!-- 核心业务 start -->
+  <section id="team" class="section" style="background: #f9f9f9">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="team-text section-header text-center">
+            <div>
+              <h2 class="section-title">我们的核心业务</h2>
+              <div class="desc-text">
+                <p>提升教师工作效率、降低教师工作成本、教师工作审核、增值课程转化、品牌背书、多元化增值服务支持等多种服务，助力机<br>构脱颖而出，申请试用后专属客服为您详细介绍</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
-  <section id="features" class="section">
+      <div class="row">
+
+        <div class="col-lg-3 col-md-6 col-xs-12">
+          <div class="single-team">
+            <div class="team-thumb">
+              <img src="images/team/01.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="team-details">
+              <div class="team-inner text-center">
+                <h5 class="team-title">在线批阅作业</h5>
+                <p>教师拍照上传作业，平台系统进行自动批阅，反馈批阅结束、修正意见，提升作业订正效率</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-3 col-md-6 col-xs-12">
+          <div class="single-team">
+            <div class="team-thumb">
+              <img src="images/team/02.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="team-details">
+              <div class="team-inner text-center">
+                <h5 class="team-title">家长数据反馈</h5>
+                <p>给家长展示学生作业情况、错题册签到和离开，把老师从被家长频繁询问孩子事项中解脱出来</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-3 col-md-6 col-xs-12">
+          <div class="single-team">
+            <div class="team-thumb">
+              <img src="images/team/03.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="team-details">
+              <div class="team-inner text-center">
+                <h5 class="team-title">教师工作管理系统</h5>
+                <p>清晰展示学生状态，让老师不漏掉任意一个学生，让管理者对教师的服务质量一目了然</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-3 col-md-6 col-xs-12">
+          <div class="single-team">
+            <div class="team-thumb">
+              <img src="images/team/04.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="team-details">
+              <div class="team-inner text-center">
+                <h5 class="team-title">定向流量推广</h5>
+                <p>背靠河北省第一大教育微信公众号将托辅机构信息定向推送至周边学校学生家长</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- 核心业务 end -->
+
+  <!-- 增值业务 start -->
+  <section id="features" class="section" style="background: #fff">
     <div class="container">
 
       <div class="row">
         <div class="col-lg-12">
           <div class="features-text section-header text-center">
             <div>
-              <h2 class="section-title">Services We Provide</h2>
+              <h2 class="section-title">我们的增值业务</h2>
               <div class="desc-text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br> eiusmod tempor incididunt ut
-                  labore et dolore.</p>
+                <p>健康的托辅机构，利润来源于业务线的方方面面。一切满足用户需求的增值项目，都会为机构带<br>来持续稳定的营收和可观的回报</p>
               </div>
             </div>
           </div>
@@ -188,10 +313,9 @@
             <div class="feature-icon float-left">
               <i class="lni-coffee-cup"></i>
             </div>
-            <div class="feature-info float-left">
-              <h4>Easy to Customize</h4>
-              <p>Producing long lasting organic SEO results for <br> brand of different kinds for more than a
-                decade,<br> we understand that’s your.</p>
+            <div class="feature-info">
+              <h4>一对一在线辅导</h4>
+              <p>子衿资深教研团队，专注于初中、小学的全科目针对性在线 1 对 1 辅导，为学员量身定制个性化辅导方案，是用户最认可的本土线上1 对 1平台</p>
             </div>
           </div>
 
@@ -204,7 +328,7 @@
             <div class="feature-icon float-left">
               <i class="lni-briefcase"></i>
             </div>
-            <div class="feature-info float-left">
+            <div class="feature-info">
               <h4>Business Template</h4>
               <p>Producing long lasting organic SEO results for <br> brand of different kinds for more than a
                 decade,<br> we understand that’s your.</p>
@@ -220,7 +344,7 @@
             <div class="feature-icon float-left">
               <i class="lni-invention"></i>
             </div>
-            <div class="feature-info float-left">
+            <div class="feature-info">
               <h4>Clean & Trendy Design</h4>
               <p>Producing long lasting organic SEO results for <br> brand of different kinds for more than a
                 decade,<br> we understand that’s your.</p>
@@ -236,7 +360,7 @@
             <div class="feature-icon float-left">
               <i class="lni-layers"></i>
             </div>
-            <div class="feature-info float-left">
+            <div class="feature-info">
               <h4>Tons of Sections</h4>
               <p>Producing long lasting organic SEO results for <br> brand of different kinds for more than a
                 decade,<br> we understand that’s your.</p>
@@ -252,7 +376,7 @@
             <div class="feature-icon float-left">
               <i class="lni-reload"></i>
             </div>
-            <div class="feature-info float-left">
+            <div class="feature-info">
               <h4>Free Future Updates</h4>
               <p>Producing long lasting organic SEO results for <br> brand of different kinds for more than a
                 decade,<br> we understand that’s your.</p>
@@ -268,7 +392,7 @@
             <div class="feature-icon float-left">
               <i class="lni-support"></i>
             </div>
-            <div class="feature-info float-left">
+            <div class="feature-info">
               <h4>Premier Support</h4>
               <p>Producing long lasting organic SEO results for <br> brand of different kinds for more than a
                 decade,<br> we understand that’s your.</p>
@@ -281,8 +405,126 @@
 
     </div>
   </section>
+  <!-- 增值业务 end -->
+
+  <!-- 业务点评 start -->
+  <section id="testimonial" class="section" style="padding: 100px;">
+    <div class="container right-position">
+
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <div class="video-promo-content text-center">
+            <!-- <a id="play-video" class="video-play-button video-popup"
+              href="https://www.youtube.com/watch?v=Y4fodpIwal8&list=RDXCElIIYx_8s&index=13">
+              <span></span>
+            </a> -->
+          </div>
+        </div>
+      </div>
 
 
+      <div class="row justify-content-center testimonial-area">
+        <div class="col-lg-10 col-md-12 col-sm-12 col-xs-12 pr-20 pl-20" style="overflow: hidden;padding-bottom: 60px">
+          <div id="client-testimonial" class="text-center owl-carousel">
+            <div class="item">
+              <div class="testimonial-item">
+                <div class="content-inner">
+                  <p class="description">Appropriately implement one-to-one catalysts for change <br> vis-a-vis wireless
+                    catalysts for change. Enthusiastically architect <br> adaptive e-tailers after sustainable total
+                    linkage. Appropriately <br> implement one-to-one catalysts for change.</p>
+                  <div class="author-info">
+                    <h5>Tahmina Anny ; <span> UIdeck Customer</span></h5>
+                  </div>
+                </div>
+                <div class="client-thumb">
+                  <img src="images/member/01.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimonial-item">
+                <div class="content-inner">
+                  <p class="description">Appropriately implement one-to-one catalysts for change <br> vis-a-vis wireless
+                    catalysts for change. Enthusiastically architect <br> adaptive e-tailers after sustainable total
+                    linkage. Appropriately <br> implement one-to-one catalysts for change.</p>
+                  <div class="author-info">
+                    <h5>Tahmina Anny ; <span> UIdeck Customer</span></h5>
+                  </div>
+                </div>
+                <div class="client-thumb">
+                  <img src="images/member/01.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimonial-item">
+                <div class="content-inner">
+                  <p class="description">Appropriately implement one-to-one catalysts for change <br> vis-a-vis wireless
+                    catalysts for change. Enthusiastically architect <br> adaptive e-tailers after sustainable total
+                    linkage. Appropriately <br> implement one-to-one catalysts for change.</p>
+                  <div class="author-info">
+                    <h5>Tahmina Anny ; <span> UIdeck Customer</span></h5>
+                  </div>
+                </div>
+                <div class="client-thumb">
+                  <img src="images/member/01.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimonial-item">
+                <div class="content-inner">
+                  <p class="description">Appropriately implement one-to-one catalysts for change <br> vis-a-vis wireless
+                    catalysts for change. Enthusiastically architect <br> adaptive e-tailers after sustainable total
+                    linkage. Appropriately <br> implement one-to-one catalysts for change.</p>
+                  <div class="author-info">
+                    <h5>Tahmina Anny ; <span> UIdeck Customer</span></h5>
+                  </div>
+                </div>
+                <div class="client-thumb">
+                  <img src="images/member/01.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimonial-item">
+                <div class="content-inner">
+                  <p class="description">Appropriately implement one-to-one catalysts for change <br> vis-a-vis wireless
+                    catalysts for change. Enthusiastically architect <br> adaptive e-tailers after sustainable total
+                    linkage. Appropriately <br> implement one-to-one catalysts for change.</p>
+                  <div class="author-info">
+                    <h5>Tahmina Anny ; <span> UIdeck Customer</span></h5>
+                  </div>
+                </div>
+                <div class="client-thumb">
+                  <img src="images/member/01.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimonial-item">
+                <div class="content-inner">
+                  <p class="description">Appropriately implement one-to-one catalysts for change <br> vis-a-vis wireless
+                    catalysts for change. Enthusiastically architect <br> adaptive e-tailers after sustainable total
+                    linkage. Appropriately <br> implement one-to-one catalysts for change.</p>
+                  <div class="author-info">
+                    <h5>Tahmina Anny ; <span> UIdeck Customer</span></h5>
+                  </div>
+                </div>
+                <div class="client-thumb">
+                  <img src="images/member/01.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- 业务点评 end -->
+
+  <!-- 成功案例 start -->
   <section id="showcase">
     <div class="container-fluid right-position">
 
@@ -290,10 +532,9 @@
         <div class="col-lg-12">
           <div class="showcase-text section-header text-center">
             <div>
-              <h2 class="section-title">Recent Works</h2>
+              <h2 class="section-title">成功案例</h2>
               <div class="desc-text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p>
-                <p>eiusmod tempor incididunt ut labore et dolore.</p>
+                <p>这些机构已经率先加入了我们，并且很好的达到了预期目标</p>
               </div>
             </div>
           </div>
@@ -494,205 +735,16 @@
                 </div>
               </div>
             </div>
-            <div class="item">
-              <div class="screenshot-thumb">
-                <img src="images/showcase/01.jpg" class="img-fluid" alt="" />
-                <div class="hover-content text-center">
-                  <div class="fancy-table">
-                    <div class="table-cell">
-                      <div class="single-text">
-                        <p>Icon , Web</p>
-                        <h5>Redesign Slack</h5>
-                      </div>
-                      <div class="zoom-icon">
-                        <a class="lightbox" href="images/showcase/01.jpg"><i class="lni-zoom-in"></i></a>
-                        <a href="#"><i class="lni-link"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="screenshot-thumb">
-                <img src="images/showcase/02.jpg" class="img-fluid" alt="" />
-                <div class="hover-content text-center">
-                  <div class="fancy-table">
-                    <div class="table-cell">
-                      <div class="single-text">
-                        <p>Icon , Web</p>
-                        <h5>Redesign Slack</h5>
-                      </div>
-                      <div class="zoom-icon">
-                        <a class="lightbox" href="images/showcase/01.jpg"><i class="lni-zoom-in"></i></a>
-                        <a href="#"><i class="lni-link"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="screenshot-thumb">
-                <img src="images/showcase/03.jpg" class="img-fluid" alt="" />
-                <div class="hover-content text-center">
-                  <div class="fancy-table">
-                    <div class="table-cell">
-                      <div class="single-text">
-                        <p>Icon , Web</p>
-                        <h5>Redesign Slack</h5>
-                      </div>
-                      <div class="zoom-icon">
-                        <a class="lightbox" href="images/showcase/01.jpg"><i class="lni-zoom-in"></i></a>
-                        <a href="#"><i class="lni-link"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="screenshot-thumb">
-                <img src="images/showcase/04.jpg" class="img-fluid" alt="" />
-                <div class="hover-content text-center">
-                  <div class="fancy-table">
-                    <div class="table-cell">
-                      <div class="single-text">
-                        <p>Icon , Web</p>
-                        <h5>Redesign Slack</h5>
-                      </div>
-                      <div class="zoom-icon">
-                        <a class="lightbox" href="images/showcase/01.jpg"><i class="lni-zoom-in"></i></a>
-                        <a href="#"><i class="lni-link"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="screenshot-thumb">
-                <img src="images/showcase/05.jpg" class="img-fluid" alt="" />
-                <div class="hover-content text-center">
-                  <div class="fancy-table">
-                    <div class="table-cell">
-                      <div class="single-text">
-                        <p>Icon , Web</p>
-                        <h5>Redesign Slack</h5>
-                      </div>
-                      <div class="zoom-icon">
-                        <a class="lightbox" href="images/showcase/01.jpg"><i class="lni-zoom-in"></i></a>
-                        <a href="#"><i class="lni-link"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="screenshot-thumb">
-                <img src="images/showcase/01.jpg" class="img-fluid" alt="" />
-                <div class="hover-content text-center">
-                  <div class="fancy-table">
-                    <div class="table-cell">
-                      <div class="single-text">
-                        <p>Icon , Web</p>
-                        <h5>Redesign Slack</h5>
-                      </div>
-                      <div class="zoom-icon">
-                        <a class="lightbox" href="images/showcase/01.jpg"><i class="lni-zoom-in"></i></a>
-                        <a href="#"><i class="lni-link"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="screenshot-thumb">
-                <img src="images/showcase/02.jpg" class="img-fluid" alt="" />
-                <div class="hover-content text-center">
-                  <div class="fancy-table">
-                    <div class="table-cell">
-                      <div class="single-text">
-                        <p>Icon , Web</p>
-                        <h5>Redesign Slack</h5>
-                      </div>
-                      <div class="zoom-icon">
-                        <a class="lightbox" href="images/showcase/01.jpg"><i class="lni-zoom-in"></i></a>
-                        <a href="#"><i class="lni-link"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="screenshot-thumb">
-                <img src="images/showcase/03.jpg" class="img-fluid" alt="" />
-                <div class="hover-content text-center">
-                  <div class="fancy-table">
-                    <div class="table-cell">
-                      <div class="single-text">
-                        <p>Icon , Web</p>
-                        <h5>Redesign Slack</h5>
-                      </div>
-                      <div class="zoom-icon">
-                        <a class="lightbox" href="images/showcase/01.jpg"><i class="lni-zoom-in"></i></a>
-                        <a href="#"><i class="lni-link"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="screenshot-thumb">
-                <img src="images/showcase/04.jpg" class="img-fluid" alt="" />
-                <div class="hover-content text-center">
-                  <div class="fancy-table">
-                    <div class="table-cell">
-                      <div class="single-text">
-                        <p>Icon , Web</p>
-                        <h5>Redesign Slack</h5>
-                      </div>
-                      <div class="zoom-icon">
-                        <a class="lightbox" href="images/showcase/01.jpg"><i class="lni-zoom-in"></i></a>
-                        <a href="#"><i class="lni-link"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="screenshot-thumb">
-                <img src="images/showcase/05.jpg" class="img-fluid" alt="" />
-                <div class="hover-content text-center">
-                  <div class="fancy-table">
-                    <div class="table-cell">
-                      <div class="single-text">
-                        <p>Icon , Web</p>
-                        <h5>Redesign Slack</h5>
-                      </div>
-                      <div class="zoom-icon">
-                        <a class="lightbox" href="images/showcase/01.jpg"><i class="lni-zoom-in"></i></a>
-                        <a href="#"><i class="lni-link"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
 
     </div>
   </section>
+  <!-- 成功案例 end -->
 
-
-  <section id="pricing" class="section">
+  <!-- 价格 -->
+  <!-- <section id="pricing" class="section">
     <div class="container">
 
       <div class="row">
@@ -777,238 +829,10 @@
       </div>
 
     </div>
-  </section>
+  </section> -->
 
 
-  <section id="testimonial" class="section">
-    <div class="container right-position">
-
-      <div class="row">
-        <div class="col-md-12 col-sm-12">
-          <div class="video-promo-content text-center">
-            <a id="play-video" class="video-play-button video-popup"
-              href="https://www.youtube.com/watch?v=Y4fodpIwal8&list=RDXCElIIYx_8s&index=13">
-              <span></span>
-            </a>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="row justify-content-center testimonial-area">
-        <div class="col-lg-10 col-md-12 col-sm-12 col-xs-12 pr-20 pl-20" style="overflow: hidden;padding-bottom: 60px">
-          <div id="client-testimonial" class="text-center owl-carousel">
-            <div class="item">
-              <div class="testimonial-item">
-                <div class="content-inner">
-                  <p class="description">Appropriately implement one-to-one catalysts for change <br> vis-a-vis wireless
-                    catalysts for change. Enthusiastically architect <br> adaptive e-tailers after sustainable total
-                    linkage. Appropriately <br> implement one-to-one catalysts for change.</p>
-                  <div class="author-info">
-                    <h5>Tahmina Anny ; <span> UIdeck Customer</span></h5>
-                  </div>
-                </div>
-                <div class="client-thumb">
-                  <img src="images/member/01.png" alt="">
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="testimonial-item">
-                <div class="content-inner">
-                  <p class="description">Appropriately implement one-to-one catalysts for change <br> vis-a-vis wireless
-                    catalysts for change. Enthusiastically architect <br> adaptive e-tailers after sustainable total
-                    linkage. Appropriately <br> implement one-to-one catalysts for change.</p>
-                  <div class="author-info">
-                    <h5>Tahmina Anny ; <span> UIdeck Customer</span></h5>
-                  </div>
-                </div>
-                <div class="client-thumb">
-                  <img src="images/member/01.png" alt="">
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="testimonial-item">
-                <div class="content-inner">
-                  <p class="description">Appropriately implement one-to-one catalysts for change <br> vis-a-vis wireless
-                    catalysts for change. Enthusiastically architect <br> adaptive e-tailers after sustainable total
-                    linkage. Appropriately <br> implement one-to-one catalysts for change.</p>
-                  <div class="author-info">
-                    <h5>Tahmina Anny ; <span> UIdeck Customer</span></h5>
-                  </div>
-                </div>
-                <div class="client-thumb">
-                  <img src="images/member/01.png" alt="">
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="testimonial-item">
-                <div class="content-inner">
-                  <p class="description">Appropriately implement one-to-one catalysts for change <br> vis-a-vis wireless
-                    catalysts for change. Enthusiastically architect <br> adaptive e-tailers after sustainable total
-                    linkage. Appropriately <br> implement one-to-one catalysts for change.</p>
-                  <div class="author-info">
-                    <h5>Tahmina Anny ; <span> UIdeck Customer</span></h5>
-                  </div>
-                </div>
-                <div class="client-thumb">
-                  <img src="images/member/01.png" alt="">
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="testimonial-item">
-                <div class="content-inner">
-                  <p class="description">Appropriately implement one-to-one catalysts for change <br> vis-a-vis wireless
-                    catalysts for change. Enthusiastically architect <br> adaptive e-tailers after sustainable total
-                    linkage. Appropriately <br> implement one-to-one catalysts for change.</p>
-                  <div class="author-info">
-                    <h5>Tahmina Anny ; <span> UIdeck Customer</span></h5>
-                  </div>
-                </div>
-                <div class="client-thumb">
-                  <img src="images/member/01.png" alt="">
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="testimonial-item">
-                <div class="content-inner">
-                  <p class="description">Appropriately implement one-to-one catalysts for change <br> vis-a-vis wireless
-                    catalysts for change. Enthusiastically architect <br> adaptive e-tailers after sustainable total
-                    linkage. Appropriately <br> implement one-to-one catalysts for change.</p>
-                  <div class="author-info">
-                    <h5>Tahmina Anny ; <span> UIdeck Customer</span></h5>
-                  </div>
-                </div>
-                <div class="client-thumb">
-                  <img src="images/member/01.png" alt="">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-
-  <section id="team" class="section">
-    <div class="container">
-
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="team-text section-header text-center">
-            <div>
-              <h2 class="section-title">Team Members</h2>
-              <div class="desc-text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p>
-                <p>eiusmod tempor incididunt ut labore et dolore.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="row">
-
-        <div class="col-lg-3 col-md-6 col-xs-12">
-          <div class="single-team">
-            <div class="team-thumb">
-              <img src="images/team/05.jpg" class="img-fluid" alt="">
-            </div>
-            <div class="team-details">
-              <div class="team-social-icons">
-                <ul class="social-list">
-                  <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
-                  <li><a href="#"><i class="lni-twitter-filled"></i></a></li>
-                  <li><a href="#"><i class="lni-google-plus"></i></a></li>
-                </ul>
-              </div>
-              <div class="team-inner text-center">
-                <h5 class="team-title">Patric Green</h5>
-                <p>Lead Designer</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col-lg-3 col-md-6 col-xs-12">
-          <div class="single-team">
-            <div class="team-thumb">
-              <img src="images/team/02.jpg" class="img-fluid" alt="">
-            </div>
-            <div class="team-details">
-              <div class="team-social-icons">
-                <ul class="social-list">
-                  <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
-                  <li><a href="#"><i class="lni-twitter-filled"></i></a></li>
-                  <li><a href="#"><i class="lni-google-plus"></i></a></li>
-                </ul>
-              </div>
-              <div class="team-inner text-center">
-                <h5 class="team-title">Celina D Cruze</h5>
-                <p>Front-end Developer</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col-lg-3 col-md-6 col-xs-12">
-          <div class="single-team">
-            <div class="team-thumb">
-              <img src="images/team/03.jpg" class="img-fluid" alt="">
-            </div>
-            <div class="team-details">
-              <div class="team-social-icons">
-                <ul class="social-list">
-                  <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
-                  <li><a href="#"><i class="lni-twitter-filled"></i></a></li>
-                  <li><a href="#"><i class="lni-google-plus"></i></a></li>
-                </ul>
-              </div>
-              <div class="team-inner text-center">
-                <h5 class="team-title">Daryl Dixon</h5>
-                <p>Content Writer</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col-lg-3 col-md-6 col-xs-12">
-          <div class="single-team">
-            <div class="team-thumb">
-              <img src="images/team/04.jpg" class="img-fluid" alt="">
-            </div>
-            <div class="team-details">
-              <div class="team-social-icons">
-                <ul class="social-list">
-                  <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
-                  <li><a href="#"><i class="lni-twitter-filled"></i></a></li>
-                  <li><a href="#"><i class="lni-google-plus"></i></a></li>
-                </ul>
-              </div>
-              <div class="team-inner text-center">
-                <h5 class="team-title">Mark Parker</h5>
-                <p>Support Engineer</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-  </section>
-
-
+  <!-- 联盟阵容 -->
   <section id="blog" class="section">
 
     <div class="container">
@@ -1017,16 +841,14 @@
         <div class="col-lg-12">
           <div class="blog-text section-header text-center">
             <div>
-              <h2 class="section-title">Latest Blog Posts</h2>
+              <h2 class="section-title">强强联合</h2>
               <div class="desc-text">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p>
-                <p>eiusmod tempor incididunt ut labore et dolore.</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-
 
       <div class="row">
 
@@ -1038,15 +860,11 @@
                 <img src="images/blog/01.jpg" class="img-fluid" alt="">
               </a>
             </div>
+
             <div class="blog-item-text">
-              <h3><a href="single-post.html">How Slick Will Transform <br>Your Business</a></h3>
+              <h3><a href="single-post.html">河北师范大学</a></h3>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                 industry.</p>
-              <a href="" class="read-more">5 Min read</a>
-            </div>
-            <div class="author">
-              <span class="name"><i class="lni-user"></i><a href="#">Posted by Admin</a></span>
-              <span class="date float-right"><i class="lni-calendar"></i><a href="#">10 April, 2020</a></span>
             </div>
           </div>
 
@@ -1062,17 +880,11 @@
               </a>
             </div>
             <div class="blog-item-text">
-              <h3><a href="single-post.html">Growth Techniques for <br>New Startups</a></h3>
+              <h3><a href="single-post.html">新华书店</a></h3>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                 industry.</p>
-              <a href="" class="read-more">5 Min read</a>
-            </div>
-            <div class="author">
-              <span class="name"><i class="lni-user"></i><a href="#">Posted by Admin</a></span>
-              <span class="date float-right"><i class="lni-calendar"></i><a href="#">10 April, 2020</a></span>
             </div>
           </div>
-
         </div>
 
 
@@ -1085,14 +897,9 @@
               </a>
             </div>
             <div class="blog-item-text">
-              <h3><a href="single-post.html">Writing Professional <br>Emails to Customers</a></h3>
+              <h3><a href="single-post.html">子衿教育</a></h3>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                 industry.</p>
-              <a href="" class="read-more">5 Min read</a>
-            </div>
-            <div class="author">
-              <span class="name"><i class="lni-user"></i><a href="#">Posted by Admin</a></span>
-              <span class="date float-right"><i class="lni-calendar"></i><a href="#">10 April, 2020</a></span>
             </div>
           </div>
 
@@ -1108,7 +915,7 @@
 
     <div class="container">
 
-      <div class="row">
+      <!-- <div class="row">
         <div class="col-lg-12">
           <div class="contact-text section-header text-center">
             <div>
@@ -1120,56 +927,18 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
 
       <div class="row">
 
         <div class="col-lg-6 col-md-12">
-          <form id="contactForm">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="name" name="name" placeholder="Name" required
-                    data-error="Please enter your name">
-                  <div class="help-block with-errors"></div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                  <input type="text" placeholder="Subject" id="msg_subject" class="form-control" name="msg_subject"
-                    required data-error="Please enter your subject">
-                  <div class="help-block with-errors"></div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="email" name="email" placeholder="Email" required
-                    data-error="Please enter your Email">
-                  <div class="help-block with-errors"></div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                  <input type="text" placeholder="Budget" id="budget" class="form-control" name="budget" required
-                    data-error="Please enter your Budget">
-                  <div class="help-block with-errors"></div>
-                </div>
-              </div>
-              <div class="col-md-12">
-                <div class="form-group">
-                  <textarea class="form-control" id="message" name="message" placeholder="Write Message" rows="4"
-                    data-error="Write your message" required></textarea>
-                  <div class="help-block with-errors"></div>
-                </div>
-                <div class="submit-button">
-                  <button class="btn btn-common" id="submit" type="submit">Submit</button>
-                  <div id="msgSubmit" class="h3 hidden"></div>
-                  <div class="clearfix"></div>
-                </div>
-              </div>
-            </div>
-          </form>
+          <div class="business-item-info">
+            <h3>联系我们申请免费试用</h3>
+            <p style="margin: 20px auto 50px;">
+              您遇到的所有问题，接入【子衿托辅机构线上服务平台】全搞定！<br>让只能接送、管饭的小饭桌，变成坐拥金牌口碑的行业佼佼者！搭<br>上这趟款车，突破瓶颈，实现收入翻倍。</p>
+            <a class="btn btn-common" href="#">申请试用</a>
+          </div>
         </div>
 
 
@@ -1196,77 +965,12 @@
   <footer>
 
     <section id="footer-Content">
-      <div class="container">
-
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-mb-12">
-            <div class="footer-logo">
-              <img src="images/footer-logo.png" alt="">
-            </div>
-          </div>
-
-
-          <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6 col-mb-12">
-            <div class="widget">
-              <h3 class="block-title">Company</h3>
-              <ul class="menu">
-                <li><a href="#"> - About Us</a></li>
-                <li><a href="#">- Career</a></li>
-                <li><a href="#">- Blog</a></li>
-                <li><a href="#">- Press</a></li>
-              </ul>
-            </div>
-          </div>
-
-
-          <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6 col-mb-12">
-            <div class="widget">
-              <h3 class="block-title">Product</h3>
-              <ul class="menu">
-                <li><a href="#"> - Customer Service</a></li>
-                <li><a href="#">- Enterprise</a></li>
-                <li><a href="#">- Price</a></li>
-                <li><a href="#">- Scurity</a></li>
-                <li><a href="#">- Why SLICK?</a></li>
-              </ul>
-            </div>
-          </div>
-
-
-          <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6 col-mb-12">
-            <div class="widget">
-              <h3 class="block-title">Download App</h3>
-              <ul class="menu">
-                <li><a href="#"> - Android App</a></li>
-                <li><a href="#">- IOS App</a></li>
-                <li><a href="#">- Windows App</a></li>
-                <li><a href="#">- Play Store</a></li>
-                <li><a href="#">- IOS Store</a></li>
-              </ul>
-            </div>
-          </div>
-
-
-          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-mb-12">
-            <div class="widget">
-              <h3 class="block-title">Subscribe Now</h3>
-              <p>Appropriately implement calysts for change visa wireless catalysts for change. </p>
-              <div class="subscribe-area">
-                <input type="email" class="form-control" placeholder="Enter Email">
-                <span><i class="lni-chevron-right"></i></span>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
 
       <div class="copyright">
         <div class="container">
 
           <div class="row">
+
             <div class="col-md-12">
               <div class="site-info text-center">
                 <p style="color: rgba(255,255,255,.38); font-size: 14px">© 2019 zijinshe.com 版权所有 | 京ICP证070711号</p>

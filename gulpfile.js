@@ -7,7 +7,7 @@ function copy () {
 }
 
 function dev () {
-  watch('./src/*.html').on('change', browserSync.reload)
+  watch('./src/**').on('change', browserSync.reload)
 
   return browserSync.init({
     server: {
