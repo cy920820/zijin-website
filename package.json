@@ -1,0 +1,19 @@
+{
+  "name": "zijin-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "rm -rf /dist & gulp build"
+  },
+  "keywords": [],
+  "author": "",
+  "dependencies": {
+    "gulp": "^4.0.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.5",
+    "gulp-htmlmin": "^5.0.1"
+  }
+}
