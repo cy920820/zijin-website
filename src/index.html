@@ -43,8 +43,8 @@
       padding-bottom: 10px;
     }
 
-    #showcase {
-      padding-top: 100px;
+    .feature-item {
+      min-height: 210px;
     }
 
     .blog-item-text {
@@ -54,6 +54,40 @@
     .blog-item-img {
       width: 130px;
       margin: 30px auto 40px;
+    }
+
+    .pricing-details {
+      min-height: 285px;
+    }
+
+    .pricing-details h1 {
+      position: relative;
+      margin: 35px 0;
+    }
+
+    .pricing-details h1:after {
+      /* content: "&uarr;"; */
+      position: absolute;
+      width: 15px;
+      height: 80px;
+      font-size: 15px;
+    }
+
+    .blog-item-wrapper p {
+      margin-bottom: 8px !important;
+    }
+
+    .blog-item-text {
+      min-height: 160px;
+    }
+
+    .feature-item {
+      display: flex;
+    }
+    
+    .feature-info {
+      min-height: 180px;
+      flex: 1;
     }
   </style>
 </head>
@@ -329,9 +363,8 @@
               <i class="lni-briefcase"></i>
             </div>
             <div class="feature-info">
-              <h4>Business Template</h4>
-              <p>Producing long lasting organic SEO results for <br> brand of different kinds for more than a
-                decade,<br> we understand that’s your.</p>
+              <h4>子衿平台会员转化</h4>
+              <p>帮家长省钱，帮机构赚钱！为会员提供答题广场、精品课、子衿密卷、寒暑假作业答案、点读、英语课本翻译、看讲解、同步视频课、公开直播课、商城专属价格等增值服务</p>
             </div>
           </div>
 
@@ -345,9 +378,8 @@
               <i class="lni-invention"></i>
             </div>
             <div class="feature-info">
-              <h4>Clean & Trendy Design</h4>
-              <p>Producing long lasting organic SEO results for <br> brand of different kinds for more than a
-                decade,<br> we understand that’s your.</p>
+              <h4>夏/冬令营推荐转化</h4>
+              <p>每年两次假期的国内外营地项目推荐，提供高比例利润分成。6-17岁夏令营,7天特战精英夏令营,21天好习惯军事夏令营,野外生存夏令营,11条特色军事夏令营线路</p>
             </div>
           </div>
 
@@ -361,9 +393,8 @@
               <i class="lni-layers"></i>
             </div>
             <div class="feature-info">
-              <h4>Tons of Sections</h4>
-              <p>Producing long lasting organic SEO results for <br> brand of different kinds for more than a
-                decade,<br> we understand that’s your.</p>
+              <h4>书籍&学习用品销售</h4>
+              <p>协助搭建自营电商平台，提供海量优质货源，流量变现利润可观。精准定位，垂直细分做商城。提供线上、线下结合的商品销售渠道，助力销售收入</p>
             </div>
           </div>
 
@@ -377,9 +408,9 @@
               <i class="lni-reload"></i>
             </div>
             <div class="feature-info">
-              <h4>Free Future Updates</h4>
-              <p>Producing long lasting organic SEO results for <br> brand of different kinds for more than a
-                decade,<br> we understand that’s your.</p>
+              <h4>知识付费课程销售</h4>
+              <p>丰富多彩的音/视频在线课程资源库，从免费到付费轻松转化，
+                一线名师讲课，让学生在机构、在家中就可以获得全国名师分享课程，学生买课，机构获利</p>
             </div>
           </div>
 
@@ -393,9 +424,8 @@
               <i class="lni-support"></i>
             </div>
             <div class="feature-info">
-              <h4>Premier Support</h4>
-              <p>Producing long lasting organic SEO results for <br> brand of different kinds for more than a
-                decade,<br> we understand that’s your.</p>
+              <h4>主题亲子活动转化</h4>
+              <p>周边游、亲子PARTY、外部商家主题联营活动信息提供。随着经济水平的提升，越来越多的家长意识到亲子互动的重要性。子衿有完善的亲子活动体系，备受家长和孩子认可</p>
             </div>
           </div>
 
@@ -408,7 +438,7 @@
   <!-- 增值业务 end -->
 
   <!-- 业务点评 start -->
-  <section id="testimonial" class="section" style="padding: 100px;">
+  <section id="testimonial" class="section">
     <div class="container right-position">
 
       <div class="row">
@@ -429,11 +459,11 @@
             <div class="item">
               <div class="testimonial-item">
                 <div class="content-inner">
-                  <p class="description">Appropriately implement one-to-one catalysts for change <br> vis-a-vis wireless
-                    catalysts for change. Enthusiastically architect <br> adaptive e-tailers after sustainable total
-                    linkage. Appropriately <br> implement one-to-one catalysts for change.</p>
+                  <p class="description">
+                    平常没时间管孩子，都到交给托辅机构。但是在上班的时候，也非常的挂念孩子，不知道孩子到班了没，作业写完了没。自从机构用上子衿平台后，我打开手机，就对孩子的动向一目了然，每天吃的什么？作业完成情况如何？让我放心很多，还学到了很多跟孩子沟通的方式，更好的兼顾了工作和关心孩子。
+                  </p>
                   <div class="author-info">
-                    <h5>Tahmina Anny ; <span> UIdeck Customer</span></h5>
+                    <h5>来自：<span>赵*鹏同学家长</span></h5>
                   </div>
                 </div>
                 <div class="client-thumb">
@@ -444,71 +474,11 @@
             <div class="item">
               <div class="testimonial-item">
                 <div class="content-inner">
-                  <p class="description">Appropriately implement one-to-one catalysts for change <br> vis-a-vis wireless
-                    catalysts for change. Enthusiastically architect <br> adaptive e-tailers after sustainable total
-                    linkage. Appropriately <br> implement one-to-one catalysts for change.</p>
+                  <p class="description">
+                    其实之前对辅导机构没有太大期待，觉得能给接接孩子、辅导辅导作业就行了。但是自从辅导班用上子衿系统之后，孩子的成绩真的是直线上升。每天给我发孩子的作业情况，还给孩子打印错题练习，这是以前想都不敢想的事情。非常感谢子衿~
+                  </p>
                   <div class="author-info">
-                    <h5>Tahmina Anny ; <span> UIdeck Customer</span></h5>
-                  </div>
-                </div>
-                <div class="client-thumb">
-                  <img src="images/member/01.png" alt="">
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="testimonial-item">
-                <div class="content-inner">
-                  <p class="description">Appropriately implement one-to-one catalysts for change <br> vis-a-vis wireless
-                    catalysts for change. Enthusiastically architect <br> adaptive e-tailers after sustainable total
-                    linkage. Appropriately <br> implement one-to-one catalysts for change.</p>
-                  <div class="author-info">
-                    <h5>Tahmina Anny ; <span> UIdeck Customer</span></h5>
-                  </div>
-                </div>
-                <div class="client-thumb">
-                  <img src="images/member/01.png" alt="">
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="testimonial-item">
-                <div class="content-inner">
-                  <p class="description">Appropriately implement one-to-one catalysts for change <br> vis-a-vis wireless
-                    catalysts for change. Enthusiastically architect <br> adaptive e-tailers after sustainable total
-                    linkage. Appropriately <br> implement one-to-one catalysts for change.</p>
-                  <div class="author-info">
-                    <h5>Tahmina Anny ; <span> UIdeck Customer</span></h5>
-                  </div>
-                </div>
-                <div class="client-thumb">
-                  <img src="images/member/01.png" alt="">
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="testimonial-item">
-                <div class="content-inner">
-                  <p class="description">Appropriately implement one-to-one catalysts for change <br> vis-a-vis wireless
-                    catalysts for change. Enthusiastically architect <br> adaptive e-tailers after sustainable total
-                    linkage. Appropriately <br> implement one-to-one catalysts for change.</p>
-                  <div class="author-info">
-                    <h5>Tahmina Anny ; <span> UIdeck Customer</span></h5>
-                  </div>
-                </div>
-                <div class="client-thumb">
-                  <img src="images/member/01.png" alt="">
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="testimonial-item">
-                <div class="content-inner">
-                  <p class="description">Appropriately implement one-to-one catalysts for change <br> vis-a-vis wireless
-                    catalysts for change. Enthusiastically architect <br> adaptive e-tailers after sustainable total
-                    linkage. Appropriately <br> implement one-to-one catalysts for change.</p>
-                  <div class="author-info">
-                    <h5>Tahmina Anny ; <span> UIdeck Customer</span></h5>
+                    <h5>来自：<span>杨*律同学家长</span></h5>
                   </div>
                 </div>
                 <div class="client-thumb">
@@ -542,6 +512,7 @@
       </div>
 
 
+      <!-- 具体教辅案例 -->
       <div class="row justify-content-center showcase-area">
         <div class="col-lg-12 col-md-12 col-xs-12 pr-0">
           <div class="showcase-slider owl-carousel">
@@ -550,10 +521,10 @@
                 <img src="images/showcase/01.jpg" class="img-fluid" alt="" />
                 <div class="hover-content text-center">
                   <div class="fancy-table">
-                    <div class="table-cell">
+                    <div>
                       <div class="single-text">
-                        <p>Icon , Web</p>
-                        <h5>Redesign Slack</h5>
+                        <p>石家庄市裕华区 , 70人以上</p>
+                        <h5>快乐学堂</h5>
                       </div>
                       <div class="zoom-icon">
                         <a class="lightbox" href="images/showcase/01.jpg"><i class="lni-zoom-in"></i></a>
@@ -569,10 +540,10 @@
                 <img src="images/showcase/02.jpg" class="img-fluid" alt="" />
                 <div class="hover-content text-center">
                   <div class="fancy-table">
-                    <div class="table-cell">
+                    <div>
                       <div class="single-text">
-                        <p>Icon , Web</p>
-                        <h5>Redesign Slack</h5>
+                        <p>石家庄市裕华区 , 100人以上</p>
+                        <h5>智慧树托管中心</h5>
                       </div>
                       <div class="zoom-icon">
                         <a class="lightbox" href="images/showcase/02.jpg"><i class="lni-zoom-in"></i></a>
@@ -588,10 +559,10 @@
                 <img src="images/showcase/03.jpg" class="img-fluid" alt="" />
                 <div class="hover-content text-center">
                   <div class="fancy-table">
-                    <div class="table-cell">
+                    <div>
                       <div class="single-text">
-                        <p>Icon , Web</p>
-                        <h5>Redesign Slack</h5>
+                        <p>石家庄市新华区 , 100人以上</p>
+                        <h5>温学堂</h5>
                       </div>
                       <div class="zoom-icon">
                         <a class="lightbox" href="images/showcase/03.jpg"><i class="lni-zoom-in"></i></a>
@@ -609,8 +580,8 @@
                   <div class="fancy-table">
                     <div class="table-cell">
                       <div class="single-text">
-                        <p>Icon , Web</p>
-                        <h5>Redesign Slack</h5>
+                        <p>石家庄市桥西区 , 50人以上</p>
+                        <h5>艾特托管</h5>
                       </div>
                       <div class="zoom-icon">
                         <a class="lightbox" href="images/showcase/04.jpg"><i class="lni-zoom-in"></i></a>
@@ -628,8 +599,8 @@
                   <div class="fancy-table">
                     <div class="table-cell">
                       <div class="single-text">
-                        <p>Icon , Web</p>
-                        <h5>Redesign Slack</h5>
+                        <p>石家庄市长安区 , 20人以上</p>
+                        <h5>博雅书屋</h5>
                       </div>
                       <div class="zoom-icon">
                         <a class="lightbox" href="images/showcase/05.jpg"><i class="lni-zoom-in"></i></a>
@@ -647,11 +618,11 @@
                   <div class="fancy-table">
                     <div class="table-cell">
                       <div class="single-text">
-                        <p>Icon , Web</p>
-                        <h5>Redesign Slack</h5>
+                        <p>石家庄桥西区 , 50人以上</p>
+                        <h5>丝梦坊托辅</h5>
                       </div>
                       <div class="zoom-icon">
-                        <a class="lightbox" href="images/showcase/01.jpg"><i class="lni-zoom-in"></i></a>
+                        <a class="lightbox" href="images/showcase/06.jpg"><i class="lni-zoom-in"></i></a>
                         <a href="#"><i class="lni-link"></i></a>
                       </div>
                     </div>
@@ -666,68 +637,11 @@
                   <div class="fancy-table">
                     <div class="table-cell">
                       <div class="single-text">
-                        <p>Icon , Web</p>
-                        <h5>Redesign Slack</h5>
+                        <p>石家庄桥西区 , 100人以上</p>
+                        <h5>贝尔安亲草场街校区</h5>
                       </div>
                       <div class="zoom-icon">
-                        <a class="lightbox" href="images/showcase/02.jpg"><i class="lni-zoom-in"></i></a>
-                        <a href="#"><i class="lni-link"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="screenshot-thumb">
-                <img src="images/showcase/03.jpg" class="img-fluid" alt="" />
-                <div class="hover-content text-center">
-                  <div class="fancy-table">
-                    <div class="table-cell">
-                      <div class="single-text">
-                        <p>Icon , Web</p>
-                        <h5>Redesign Slack</h5>
-                      </div>
-                      <div class="zoom-icon">
-                        <a class="lightbox" href="images/showcase/03.jpg"><i class="lni-zoom-in"></i></a>
-                        <a href="#"><i class="lni-link"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="screenshot-thumb">
-                <img src="images/showcase/04.jpg" class="img-fluid" alt="" />
-                <div class="hover-content text-center">
-                  <div class="fancy-table">
-                    <div class="table-cell">
-                      <div class="single-text">
-                        <p>Icon , Web</p>
-                        <h5>Redesign Slack</h5>
-                      </div>
-                      <div class="zoom-icon">
-                        <a class="lightbox" href="images/showcase/04.jpg"><i class="lni-zoom-in"></i></a>
-                        <a href="#"><i class="lni-link"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="screenshot-thumb">
-                <img src="images/showcase/05.jpg" class="img-fluid" alt="" />
-                <div class="hover-content text-center">
-                  <div class="fancy-table">
-                    <div class="table-cell">
-                      <div class="single-text">
-                        <p>Icon , Web</p>
-                        <h5>Redesign Slack</h5>
-                      </div>
-                      <div class="zoom-icon">
-                        <a class="lightbox" href="images/showcase/05.jpg"><i class="lni-zoom-in"></i></a>
+                        <a class="lightbox" href="images/showcase/07.jpg"><i class="lni-zoom-in"></i></a>
                         <a href="#"><i class="lni-link"></i></a>
                       </div>
                     </div>
@@ -743,18 +657,17 @@
   </section>
   <!-- 成功案例 end -->
 
-  <!-- 价格 -->
-  <!-- <section id="pricing" class="section">
+  <!-- 数据反馈 -->
+  <section id="pricing" class="section">
     <div class="container">
 
       <div class="row">
         <div class="col-lg-12">
           <div class="pricing-text section-header text-center">
             <div>
-              <h2 class="section-title">Pricing Plans</h2>
+              <h2 class="section-title">数据反馈</h2>
               <div class="desc-text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p>
-                <p>eiusmod tempor incididunt ut labore et dolore.</p>
+                <p>子衿自营托管机构运行使用平台服务后，呈现良好营业数据反馈，所有呈现数据源自营机构独立统计，仅供参考</p>
               </div>
             </div>
           </div>
@@ -767,19 +680,9 @@
         <div class="col-lg-4 col-md-4 col-xs-12">
           <div class="pricing-table text-center">
             <div class="pricing-details">
-              <h3>Free</h3>
-              <h1><span>$</span>00</h1>
-              <ul>
-                <li>Free Instalation</li>
-                <li>500MB Storage</li>
-                <li>Single User</li>
-                <li>5 GB Bandwith</li>
-                <li>Minimal Features</li>
-                <li>No Dashboard</li>
-              </ul>
-            </div>
-            <div class="plan-button">
-              <a href="#" class="btn btn-border">Purchase</a>
+              <h3>学生成绩</h3>
+              <h1>20%&uarr;</h1>
+              <p>错题册自动收集，机构为学生打印错题，让学生进行多次练习和举一反三。有针对性的练习，让学生成绩普遍提升</p>
             </div>
           </div>
         </div>
@@ -788,19 +691,9 @@
         <div class="col-lg-4 col-md-4 col-xs-12">
           <div class="pricing-table text-center">
             <div class="pricing-details">
-              <h3>standard</h3>
-              <h1><span>$</span>19.99</h1>
-              <ul>
-                <li>Free Instalation</li>
-                <li>2 GB Storage</li>
-                <li>Upto 2 users</li>
-                <li>50 GB Bandwith</li>
-                <li>All Features</li>
-                <li>Sales Dashboard</li>
-              </ul>
-            </div>
-            <div class="plan-button">
-              <a href="#" class="btn btn-common">Purchase</a>
+              <h3>节省时间</h3>
+              <h1>30%&uarr;</h1>
+              <p>减少家长频繁询问孩子状况，教师工作总被打断，效率低下。多个沟通渠道回复消息不及时的情况</p>
             </div>
           </div>
         </div>
@@ -809,19 +702,9 @@
         <div class="col-lg-4 col-md-4 col-xs-12">
           <div class="pricing-table text-center">
             <div class="pricing-details">
-              <h3>Business</h3>
-              <h1><span>$</span>29.99</h1>
-              <ul>
-                <li>Free Instalation</li>
-                <li>5 GB Storage</li>
-                <li>Upto 4 users</li>
-                <li>100 GB Bandwith</li>
-                <li>All Features</li>
-                <li>Sales Dashboard</li>
-              </ul>
-            </div>
-            <div class="plan-button">
-              <a href="#" class="btn btn-border">Purchase</a>
+              <h3>单店利润</h3>
+              <h1>50%&uarr;</h1>
+              <p>生源更多、客单价提升、一对一服务、子衿平台会员转化、系统代理费等更立体的托辅机构盈利模式让机构利润大幅度提升</p>
             </div>
           </div>
         </div>
@@ -829,7 +712,7 @@
       </div>
 
     </div>
-  </section> -->
+  </section>
 
 
   <!-- 联盟阵容 -->
@@ -843,7 +726,7 @@
             <div>
               <h2 class="section-title">强强联合</h2>
               <div class="desc-text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p>
+                <p>强强联合，提供卓越服务，做您的坚实后盾</p>
               </div>
             </div>
           </div>
@@ -863,30 +746,12 @@
 
             <div class="blog-item-text">
               <h3><a href="single-post.html">河北师范大学</a></h3>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry.</p>
+              <p>教师教育人才资源支持</p>
+              <p>河北师范大学软件学院人工智能AI技术支持</p>
             </div>
           </div>
 
         </div>
-
-
-        <div class="col-lg-4 col-md-6 col-xs-12 blog-item">
-
-          <div class="blog-item-wrapper">
-            <div class="blog-item-img">
-              <a href="single-post.html">
-                <img src="images/blog/02.jpg" class="img-fluid" alt="">
-              </a>
-            </div>
-            <div class="blog-item-text">
-              <h3><a href="single-post.html">新华书店</a></h3>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry.</p>
-            </div>
-          </div>
-        </div>
-
 
         <div class="col-lg-4 col-md-6 col-xs-12 blog-item">
 
@@ -898,11 +763,27 @@
             </div>
             <div class="blog-item-text">
               <h3><a href="single-post.html">子衿教育</a></h3>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry.</p>
+              <p>400万线上用户的海量基础数据支持</p>
+              <p>获千万级流量宣传推广</p>
             </div>
           </div>
 
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-xs-12 blog-item">
+
+          <div class="blog-item-wrapper">
+            <div class="blog-item-img">
+              <a href="single-post.html">
+                <img src="images/blog/02.jpg" class="img-fluid" alt="">
+              </a>
+            </div>
+            <div class="blog-item-text">
+              <h3><a href="single-post.html">新华书店</a></h3>
+              <p>海量教育教学相关内容资源</p>
+              <p>全省新华书店渠道支持</p>
+            </div>
+          </div>
         </div>
 
       </div>
@@ -973,7 +854,9 @@
 
             <div class="col-md-12">
               <div class="site-info text-center">
-                <p style="color: rgba(255,255,255,.38); font-size: 14px">© 2019 zijinshe.com 版权所有 | 京ICP证070711号</p>
+                <p style="color: rgba(255,255,255,.38); font-size: 14px">
+                  联系我们 0311-68076735&nbsp;&nbsp;|&nbsp;&nbsp;网站备案 冀ICP备15003559号-1&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://mp.weixin.qq.com/s?__biz=MzA3NzkwODAyNw==&mid=215099081&idx=1&sn=559763fb1b4e89aa8edfaf4f8c6930e5&scene=23&srcid=1005GLLIjGMz6QUa36aT4pfV#rd">用户协议</a> &nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://mp.weixin.qq.com/s?__biz=MzA3NzkwODAyNw==&mid=215097286&idx=1&sn=43e3ecdc06e0fdab968922956f475d42&scene=23&srcid=1005qhFJSCE1NzfyrLfKVaqg#rd">免责条款</a>
+                </p>
               </div>
             </div>
 
