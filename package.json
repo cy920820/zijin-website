@@ -9,11 +9,9 @@
   },
   "keywords": [],
   "author": "",
-  "dependencies": {
-    "gulp": "^4.0.1"
-  },
   "devDependencies": {
-    "browser-sync": "^2.26.5",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
     "gulp-htmlmin": "^5.0.1"
   }
 }
